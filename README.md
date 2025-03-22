@@ -7,7 +7,7 @@ A stylish simple To-Do list app built using Java Swing and OOP.
 - Save & Load to/from JSON
 
 ## ScreenShot
-Screenshot 2025-03-22 at 10.40.41.png
+![App Screenshot](https://github.com/ItzhakRouach/ToDoList-GUI/blob/0857b284d92b68b33b2dae8a4014196c434d6c30/Screenshot%202025-03-22%20at%2010.40.41.png)
 
 
 ## How To Run:
