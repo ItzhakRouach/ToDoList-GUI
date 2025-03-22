@@ -16,4 +16,4 @@ A stylish simple To-Do list app built using Java Swing and OOP.
 3. Make sure `icons/` and `tasks.json` are in the same directory
 
 ----
-© 2024 Itzhak Rouach. All rights reserved.
+© 2025 Itzhak Rouach. All rights reserved.
