@@ -6,7 +6,8 @@ A stylish simple To-Do list app built using Java Swing and OOP.
 - Due Date Picker
 - Save & Load to/from JSON
 
-
+## ScreenShot
+![App Screenshot] (Screenshot 2025-03-22 at 10.40.41.png)
 
 
 ## How To Run:
