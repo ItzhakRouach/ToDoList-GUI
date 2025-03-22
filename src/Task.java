@@ -1,26 +1,35 @@
+import java.time.LocalDate;
+
 public class Task {
     private String title;
     private boolean isDone;
+    private LocalDate dueDate;
 
-    public Task(String title){
+    public Task(String title , LocalDate dueDate){
         this.title = title;
         this.isDone = false;
+        this.dueDate = dueDate;
     }
 
     public void markTaskDone(){
-        this.isDone = true;
+        isDone = true;
     }
 
-    public boolean taskProgress(){
-        return this.isDone;
+    public boolean isDone(){
+        return isDone;
     }
 
     public String getTask(){
         return this.title;
     }
 
+    public LocalDate getDueDate(){
+        return dueDate;
+    }
+
     @Override
     public String toString(){
-        return   title + " " + (isDone ? "[✔]" : "[ ]");
+        return   title + " " +  " (" + dueDate + ")";
     }
 }
+
